@@ -3,14 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai"
 import { connectToDatabase } from "@/lib/mongodb"
 import { ObjectId } from "mongodb"
 
-// Get API key from environment variables
-const API_KEY = process.env.GOOGLE_AI_API_KEY
-if (!API_KEY) {
-  console.error("[v0] Missing GOOGLE_AI_API_KEY environment variable")
-  throw new Error("Missing GOOGLE_AI_API_KEY environment variable")
-}
-
-// Initialize the Google AI client
+const API_KEY = "AIzaSyBV7f5R2eURtyfwFVWFhG29krQc6Go5cps"
 const genAI = new GoogleGenerativeAI(API_KEY)
 
 export async function POST(request) {

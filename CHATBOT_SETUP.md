@@ -49,7 +49,10 @@ Login with these test accounts to see personalized chatbot in action:
 
 ### 5. MongoDB Integration
 
-The chatbot connects to your MongoDB database using the connection string from your environment variables.
+The chatbot connects to your MongoDB database at:
+\`\`\`
+mongodb+srv://lavish2006:Lavish20@neuronovacluster.y55tlbx.mongodb.net/NeuroNovaDB
+\`\`\`
 
 **To use MongoDB instead of temp data:**
 1. Add `MONGO_URI` environment variable in the Vars section

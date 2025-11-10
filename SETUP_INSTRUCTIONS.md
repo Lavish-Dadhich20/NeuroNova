@@ -12,11 +12,9 @@ Your MongoDB Atlas connection is already set up with:
 - Cluster: `neuronovacluster`
 
 ### 2. Environment Variable
-The environment variable needs to be configured:
-- Create a `.env.local` file in the root directory
-- Add your MongoDB connection string as `MONGO_URI`
-- Format: `MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority`
-- Never commit this file to version control
+The environment variable is already configured:
+- Name: `MONGO_URI`
+- Value: `mongodb+srv://lavish2006:Lavish20@neuronovacluster.y55tlbx.mongodb.net/NeuroNovaDB?retryWrites=true&w=majority`
 
 ### 3. Seed the Database
 Once the environment variable is set:
